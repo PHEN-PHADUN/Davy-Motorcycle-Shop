@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="km">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ហាងលក់ម៉ូតូ ដាវី - Davy Moto Shop</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="products.html">
+    <link rel="stylesheet" href="installment.html">
+    <link rel="stylesheet" href="Contact.html">
+</head>
+<body>
+
+<header>
+    <div class="logo-davy-style">
+    <img src="img/lodo.jpg" class="logo-img">
+    <h1 data-key="shop_title"> ហាងលក់ម៉ូតូ ដាវី</h1>
+    </div>
+    
+    
+    <div class="header-main">
+        <div class="logo"> </div>
+        <nav>
+            <div class="nav-item">
+                <a href="Home.html" data-key="nav_home">ទំព័រដើម</a>
+                <!-- <a href="#" id="homeMenuLink" data-key="nav_home">ទំព័រដើម</a>   -->
+                <!-- <ul class="dropdown-menu" id="homeDropdown">
+                    <li><a href="index.html#promo" data-key="sub_promo">ការប្រម៉ូសិន</a></li>
+                    <li><a href="index.html#new-arrivals" data-key="sub_new">ម៉ូតូមកដល់ថ្មី</a></li>
+                </ul> -->
+            </div>
+            <a href="Products.html" data-key="nav_products">ប្រភេទម៉ូតូ</a>
+            <a href="Installment.html" data-key="nav_installment">សេវាកម្មរំលស់</a>
+            <a href="Contact.html" data-key="nav_contact">ទាក់ទងយើង</a>
+            
+        </nav>
+    </div>
+
+    <div class="header-sub">
+        <div class="phone-capsule">📞 031 345 99 66</div>
+        <div class="laguage">
+            <a href="#" id="lang-km">ខ្មែរ</a> | 
+            <a href="#" id="lang-en">English</a>
+        </div>
+    </div>
+</header>
+
+<section class="installment-section" id="installment">
+    <div class="container">
+        <h2 class="section-title" data-key="ins_title">💰 សេវាកម្មបង់រំលស់រហ័សទាន់ចិត្ត</h2>
+        <p class="section-subtitle" data-key="ins_subtitle">ឯកសារងាយៗ អនុម័តរហ័សក្នុងកំឡុងពេល ២៤ ម៉ោង ជាមួយដៃគូធនាគារជាច្រើន</p>
+
+        <div class="installment-grid">
+            
+            <!-- Box 1: Requirements & Documents Card Info -->
+            <div class="info-card" id="requirements">
+                <h3 data-key="card_req_title">📋 ឯកសារតម្រូវសម្រាប់អ្នកធ្វើការ និងអាជីវករ</h3>
+                <ul class="doc-list">
+                    <li data-key="doc_id">🆔 អត្តសញ្ញាណប័ណ្ណសញ្ជាតិខ្មែរ (ច្បាប់ដើម)</li>
+                    <li data-key="doc_book">🏠 សៀវភៅស្នាក់នៅ ឬសៀវភៅគ្រួសារ</li>
+                    <li data-key="doc_salary">💵 លិខិតបញ្ជាក់ប្រាក់ខែ ឬចុងសន្លឹកបើកប្រាក់ខែចុងក្រោយ (សម្រាប់អ្នកធ្វើការ)</li>
+                    <li data-key="doc_biz">📈 ប័ណ្ណប៉ាតង់ ឬកិច្ចសន្យាជួលតូប/ទីតាំង (សម្រាប់អាជីវករ)</li>
+                </ul>
+                <div class="note-box">
+                    <strong data-key="note_lbl">💡 សម្គាល់៖</strong> <span data-key="note_txt">មិនទាមទារប្រាក់កក់មុនក៏បាន (បង់រំលស់សុទ្ធ ១០០%) និងមានរយៈពេលបង់រំលស់រហូតដល់ ៣៦ ខែ។</span>
+                </div>
+            </div>
+
+            <!-- Box 2: Interactive Real-Time Loan Calculator Engine -->
+            <div class="calculator-card">
+                <h3 data-key="card_calc_title">📊 ម៉ាស៊ីនគិតលេខរំលស់សាកល្បង</h3>
+                
+                <!-- Bike Price Slider Input Group -->
+                <div class="form-group">
+                    <label><span data-key="slider_price">💵 តម្លៃម៉ូតូសរុប (USD):</span> <span id="bike-price-val">2500</span>$</label>
+                    <input type="range" id="bike-price" min="1000" max="6000" step="100" value="2500" class="slider">
+                </div>
+
+                <!-- Down Payment Percentage Slider Input Group -->
+                <div class="form-group">
+                    <label><span data-key="slider_down">📉 ប្រាក់កក់មុន (%):</span> <span id="down-payment-val">20</span>%</label>
+                    <input type="range" id="down-payment" min="0" max="50" step="10" value="20" class="slider">
+                </div>
+
+                <!-- Loan Term Duration Months Slider Input Group -->
+                <div class="form-group">
+                    <label><span data-key="slider_term">📅 រយៈពេលបង់រំលស់:</span> <span id="loan-term-val">12</span> <span data-key="lbl_months">ខែ</span></label>
+                    <input type="range" id="loan-term" min="6" max="36" step="6" value="12" class="slider">
+                </div>
+
+                <!-- Calculation Live Output Display Template Box -->
+                <div class="result-box">
+                    <p data-key="calc_est_payment">ប្រាក់ត្រូវបង់ប្រចាំខែ (ប៉ាន់ស្មាន)*</p>
+                    <h2 id="monthly-payment">$0.00</h2>
+                    <span class="interest-rate" data-key="calc_notice">*គិតក្នុងអត្រាការប្រាក់គំរូ 1.2% ក្នុងមួយខែ</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 <span data-key="footer_shop">ហាងម៉ូតូ ដាវី - ទីតាំង៖ ខេត្តកំពត</span></p>
+    <p><span data-key="footer_phone">ទូរស័ព្ទ៖</span> 031 345 99 66 / 096 345 99 66</p>
+</footer>
+
+<script src="js/lang-switch.js"></script>
+<script src="js/installment.js"></script>
+</body>
+</html>
