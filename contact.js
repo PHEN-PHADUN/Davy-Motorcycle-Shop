@@ -3,7 +3,7 @@
     document.addEventListener("DOMContentLoaded", () => {
         if(typeof translations !== 'undefined') {
             translations.km.contact_title = "📞 ទំនាក់ទំនងមកយើងខ្ញុំ";
-            translations.km.contact_subtitle = "លោកអ្នកអាចអញ្ជើញមកហាងផ្ទាល់ ទំនាក់ទំនងតាមទូរសព្ទ ឬផ្ញើសារមកយើងខ្ញុំបានគ្រប់ពេល";
+            translations.km.contact_subtitle = "លោកអ្នកអាចអញ្ជើញមកហាងផ្ទាល់ ឬទំនាក់ទំនងតាមទូរសព្ទនិងផ្ញើសារមកយើងខ្ញុំបានគ្រប់ពេល";
             translations.km.card_info_title = "ហាងលក់ម៉ូតូ ខុន ដាវី";
             translations.km.lbl_address = "📍 ទីតាំងហាង៖";
             translations.km.val_address = "ភូមិបឹងធំខាងលិច ឃុំអង្គសុរភី ស្រុកកំពង់ត្រាច ខេត្តកំពត";

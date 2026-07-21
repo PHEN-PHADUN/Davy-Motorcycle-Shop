@@ -7,7 +7,7 @@ const translations = {
         sub_new: "ម៉ូតូមកដល់ថ្មី",
         nav_products: "ប្រភេទម៉ូតូ",
         nav_installment: "សេវាកម្មរំលស់",
-        nav_contact: "ទាក់ទងយើង",
+        nav_contact: "ទាក់ទងមកយើងខ្ញុំ",
         hero_title: "ស្វាគមន៍មកកាន់ហាង លក់ម៉ូតូដាវី",
         hero_desc: "មានលក់ម៉ូតូស៊េរីថ្មីៗ គុណភាពខ្ពស់ និងតម្លៃសមរម្យ",
         section_title: "ម៉ូតូក្នុងស្តុកថ្ងៃនេះ",
