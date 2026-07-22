@@ -40,7 +40,7 @@
     document.getElementById("sendTgBtn").addEventListener("click", () => {
         const textMessage = document.getElementById("quickMessage").value;
         if(textMessage.trim() !== "") {
-            const formattedUrl = "https://t.me/phannaoun?text=" + encodeURIComponent(textMessage);
+            const formattedUrl = "https://t.me/SauthChantha168?text=" + encodeURIComponent(textMessage);
             window.open(formattedUrl, '_blank');
         } else {
             alert("សូមបញ្ចូលសារខ្លះៗមុននឹងចុចផ្ញើ! / Please enter a message before sending!");
